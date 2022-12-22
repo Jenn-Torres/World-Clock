@@ -43,13 +43,15 @@ function updatecity(event) {
   let cityName = cityTimeZone.replace("_", " ").split("/")[1];
 
   if (cityName === "Argentina") {
-    cityName = "Buenos Aires";
+    cityName = "Buenos Aires 🇦🇷";
     cityId = "buenos-aires";
   }
   if (cityName === "Rome") {
+    cityName = "Rome 🇮🇹";
     cityId = "rome";
   }
   if (cityName === "Dubai") {
+    cityName = "Dubai 🇦🇪";
     cityId = "dubai";
   }
 
